@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 4px dashed gray;
+  gap: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  gap: 0.2rem;
+}
+
+.button-group button {
+  width: 100%;
+  border: none;
+  background-color: black;
+  padding: 0.5rem;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.button-group button:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
